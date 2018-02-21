@@ -8,7 +8,7 @@ const twoNumberSum = (arr, targetSum) => {
 			let currentNum = tempArr.shift();
 			if((arr[i] + currentNum) === targetSum) {
 				let resArr = [arr[i], currentNum];
-				return resArr.sort((a,b) => return a-b})
+				return resArr.sort((a,b) => return a-b)
 			}
 		}
 
